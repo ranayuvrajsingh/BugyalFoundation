@@ -1,8 +1,8 @@
-// src/components/Navbar.jsx
+
 
 import React from 'react';
 
-// First define the style
+
 const linkStyle = {
   textDecoration: 'none',
   color: '#3b7a57',
