@@ -1,4 +1,4 @@
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import FocusAreas from './components/FocusAreas';
@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <About />
       <FocusAreas />

@@ -57,7 +57,7 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #1b6b16;
+	background-color: #307611;
     padding: 20px 0;
 }
 .footer-col{
@@ -88,10 +88,10 @@ ul{
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #111111;
+	color: #121111;
 	text-decoration: none;
 	font-weight: 300;
-	color: #070707;
+	color: #efe7e7;
 	display: block;
 	transition: all 0.3s ease;
 }
@@ -108,11 +108,11 @@ ul{
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: #ebe2e2;
+	color: #f0eeee;
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
-	color: #24262b;
+	color: #0d0d0d;
 	background-color: #ffffff;
 }
 
