@@ -1,21 +1,14 @@
-
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/autoplay';
-import { Autoplay } from 'swiper/modules';
+import React from 'react';
 
 function FocusAreas() {
   return (
     <section id="about" className="bg-green-50 py-20 px-4 md:px-12">
       <div className="max-w-7xl mx-auto text-center">
-
         {/* ABOUT SECTION */}
         <div className="about section mb-20">
           <div className="about__container grid">
-
             <h2 className="section__title-1 text-5xl font-bold mb-10">
-              <span>FocusAreas</span>
+              <span>Focus Areas</span>
             </h2>
 
             <div className="about__perfil mb-10">
@@ -25,12 +18,12 @@ function FocusAreas() {
                   alt="profile" 
                   className="about__img rounded-full object-cover w-full h-full"
                 />
-                 <img 
+                <img 
                   src="student2.jpeg" 
                   alt="profile" 
                   className="about__img rounded-full object-cover w-full h-full"
                 />
-                  <img 
+                <img 
                   src="student2.jpeg" 
                   alt="profile" 
                   className="about__img rounded-full object-cover w-full h-full"
@@ -43,33 +36,38 @@ function FocusAreas() {
             </div>
 
             <div className="about__info text-gray-700">
-              <p className="about__description mb-6 text-lg">
-              <b>"Let the Hills Learn. Let the Earth Heal."</b> Founded with love for the land and people of the Himalayas, 
-          Bugyal Foundation works to empower rural communities especially in remote and underdeveloped areas. 
-          Our name comes from the word “Bugyal”, meaning alpine meadows in the mountains—a symbol of harmony between nature and life.
-              </p>
+              {/* <p className="about__description mb-6 text-lg">
+                <strong>"Let the Hills Learn. Let the Earth Heal."</strong> Founded with love for the land and people of the Himalayas, 
+                Bugyal Foundation works to empower rural communities, especially in remote and underdeveloped areas. 
+                Our name comes from the word “Bugyal”, meaning alpine meadows in the mountains—a symbol of harmony between nature and life.
+              </p> */}
 
-              <ul className="about__list list-disc list-inside mb-6 text-left max-w-md mx-auto">
-                <li className="about__item">
-                  <b>My Skills Are:</b> HTML, CSS, JavaScript, React, Git & GitHub, Bootstrap, Flutter & Figma.
-                </li>
-              </ul>
+              <div className="text-left max-w-3xl mx-auto">
+                <h3 className="text-2xl font-semibold text-green-800 mb-4">1. Rural Education Empowerment</h3>
+                <p className="mb-4">
+                  <strong>"Shiksha Se Shakti – Education is Power."</strong> We are dedicated to ensuring that every child in rural communities has access to meaningful education.
+                </p>
+                <ul className="list-disc list-inside mb-6">
+                  <li><strong>Project Pahaad Pathshala</strong>: Establishing and enhancing village schools in hill regions.</li>
+                  <li><strong>Shiksha Sapna</strong>: Supporting students with learning materials, uniforms, and digital access.</li>
+                  <li><strong>Teacher Training</strong>: Empowering educators through specialized training programs.</li>
+                  <li><strong>Community Learning Centers</strong>: Creating spaces for after-school programs and adult literacy drives.</li>
+                </ul>
 
-              {/* <div className="about__buttons flex justify-center gap-6">
-                <a href="#contact" className="button flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition">
-                  <i className="ri-send-plane-line"></i> Contact Me
-                </a>
-                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="button__ghost flex items-center gap-2 px-4 py-2 border-2 border-green-600 text-green-600 rounded-full hover:bg-green-50 transition">
-                  <i className="ri-linkedin-box-line"></i>
-                </a>
-              </div> */}
+                <h3 className="text-2xl font-semibold text-green-800 mb-4">2. Environment & Sustainability</h3>
+                <p className="mb-4">
+                  <strong>"Green Minds. Clean Earth."</strong> We promote ecological awareness and action that is community-led and locally rooted.
+                </p>
+                <ul className="list-disc list-inside mb-6">
+                  <li><strong>Green Roots Movement</strong>: Tree plantations, native forest revival, and climate awareness campaigns.</li>
+                  <li><strong>EcoVaani</strong>: Environmental education using stories, folk art, and local wisdom.</li>
+                  <li><strong>Clean Water and Sanitation</strong>: Implementing village-level clean water, sanitation, and plastic-free campaigns.</li>
+                  <li><strong>Sustainable Farming Training</strong>: Conducting waste management workshops and promoting sustainable agricultural practices.</li>
+                </ul>
+              </div>
             </div>
-
           </div>
         </div>
-
-      
-
       </div>
     </section>
   );

@@ -184,17 +184,9 @@ function Projects() {
         <div className="bg-green-600 text-white mt-24 p-12 rounded-3xl shadow-2xl max-w-5xl mx-auto relative overflow-hidden">
           {/* Gradient Accent */}
           <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-white/5 blur-2xl -z-10" />
-          <h3 className="text-3xl font-bold mb-4">Get Involved</h3>
-          <p className="text-lg mb-6 leading-relaxed max-w-2xl mx-auto">
-            Join us in our mission to empower, educate, and sustain. 
-            Together, we can create a future where every child learns and every tree thrives.
-          </p>
-          <a
-            href="#contact"
-            className="inline-block bg-white text-green-700 font-semibold px-8 py-3 rounded-full hover:bg-green-100 transition-colors duration-300 shadow-md"
-          >
-            Contact Us
-          </a>
+         
+         
+         
         </div>
       </div>
     </section>

@@ -12,10 +12,10 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <About />
-      <FocusAreas />
       <Projects />
+      <FocusAreas />
       <GetInvolved />
+      <About />
       <Contact />
     </div>
   );

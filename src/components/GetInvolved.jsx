@@ -36,12 +36,12 @@ function GetInvolved() {
             <div className="about__perfil mb-10">
               <div className="about__image relative mx-auto w-60 h-60">
                 <img
-                  src="student.jpeg"
+                  src="a.avif"
                   alt="profile"
                   className="about__img rounded-full object-cover w-full h-full"
                 />
                 <img
-                  src="student2.jpeg"
+                  src="b.avif"
                   alt="profile"
                   className="about__img rounded-full object-cover w-full h-full"
                 />
