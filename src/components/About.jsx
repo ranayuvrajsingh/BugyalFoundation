@@ -43,9 +43,9 @@ function About() {
               </p>
 
               <ul className="about__list list-disc list-inside mb-6 text-left max-w-md mx-auto">
-                <li className="about__item">
+                {/* <li className="about__item">
                   <b>My Skills Are:</b> HTML, CSS, JavaScript, React, Git & GitHub, Bootstrap, Flutter & Figma.
-                </li>
+                </li> */}
               </ul>
 
               {/* <div className="about__buttons flex justify-center gap-6">
@@ -62,17 +62,17 @@ function About() {
         </div>
 
         {/* ABOUT US INTRO */}
-        <h2 className="text-5xl font-extrabold text-green-800 mb-8">About Us</h2>
+        {/* <h2 className="text-5xl font-extrabold text-green-800 mb-8">About Us</h2>
         <p className="text-xl text-gray-700 mb-6 leading-relaxed font-medium max-w-4xl mx-auto">
          
         </p>
         <p className="text-xl text-gray-700 mb-12 leading-relaxed font-medium max-w-4xl mx-auto">
           We believe that education is a right, not a privilege, and that protecting nature is not optional, but essential. 
           Our projects aim to:
-        </p>
+        </p> */}
 
         {/* SLIDER SECTION */}
-        <div className="mb-20">
+        {/* <div className="mb-20">
           <Swiper
             modules={[Autoplay]}
             spaceBetween={30}
@@ -97,14 +97,14 @@ function About() {
               </SwiperSlide>
             ))}
           </Swiper>
-        </div>
+        </div> */}
 
-        {/* FOCUS AREAS */}
+        {/* FOCUS AREAS
         <div className="text-center mb-20">
-          <h3 className="text-4xl font-bold text-green-800 mb-12">Our Focus Areas</h3>
+          <h3 className="text-4xl font-bold text-green-800 mb-12">Our Focus Areas</h3> */}
 
           {/* Education Empowerment */}
-          <div className="mb-16">
+          {/* <div className="mb-16">
             <h4 className="text-2xl font-semibold text-green-800 mb-4">1. Rural Education Empowerment</h4>
             <p className="text-lg text-gray-700 leading-relaxed mb-6 max-w-3xl mx-auto">
               "Shiksha Se Shakti – Education is Power." We work to ensure every child in rural communities has access 
@@ -116,10 +116,10 @@ function About() {
               <li>Teacher training and community learning centers</li>
               <li>After-school programs and adult literacy drives</li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Environment */}
-          <div>
+          {/* <div>
             <h4 className="text-2xl font-semibold text-green-800 mb-4">2. Environment & Sustainability</h4>
             <p className="text-lg text-gray-700 leading-relaxed mb-6 max-w-3xl mx-auto">
               "Green Minds. Clean Earth." We promote ecological awareness and action that is community-led and locally rooted.
@@ -131,10 +131,10 @@ function About() {
               <li>Waste management workshops and sustainable farming training</li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
         {/* FLAGSHIP PROJECT */}
-        <div className="bg-green-600 text-white p-12 rounded-2xl shadow-lg text-center max-w-5xl mx-auto">
+        {/* <div className="bg-green-600 text-white p-12 rounded-2xl shadow-lg text-center max-w-5xl mx-auto">
           <h3 className="text-3xl font-bold mb-6">Our Flagship Project: Pahaad Pathshala</h3>
           <p className="text-lg mb-8 leading-relaxed">
             Pahaad Pathshala is our flagship project, bringing quality education to remote mountain villages. 
@@ -145,7 +145,7 @@ function About() {
           <button className="px-8 py-3 bg-white text-green-700 font-semibold rounded-full hover:bg-green-100 transition duration-300">
             Learn More
           </button>
-        </div>
+        </div> */}
 
       </div>
 
