@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <div class="container">
         <div class="row">
           <div class="footer-col">

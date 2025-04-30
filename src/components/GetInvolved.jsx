@@ -22,7 +22,7 @@ import { Autoplay } from 'swiper/modules';
 
 function GetInvolved() {
   return (
-    <section id="about" className="bg-green-50 py-20 px-4 md:px-12">
+    <section id="about involved" className="bg-green-50 py-20 px-4 md:px-12">
       <div className="max-w-7xl mx-auto text-center">
 
         {/* ABOUT SECTION */}

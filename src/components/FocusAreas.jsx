@@ -2,7 +2,7 @@ import React from 'react';
 
 function FocusAreas() {
   return (
-    <section id="about" className="bg-green-50 py-20 px-4 md:px-12">
+    <section  id="about #focusAreas" className="bg-green-50 py-20 px-4 md:px-12">
       <div className="max-w-7xl mx-auto text-center">
         {/* ABOUT SECTION */}
         <div className="about section mb-20">
@@ -14,20 +14,20 @@ function FocusAreas() {
             <div className="about__perfil mb-10">
               <div className="about__image relative mx-auto w-60 h-60">
                 <img 
-                  src="student.jpeg" 
+                  src="d.avif" 
                   alt="profile" 
                   className="about__img rounded-full object-cover w-full h-full"
                 />
                 <img 
-                  src="student2.jpeg" 
+                  src="e.avif" 
                   alt="profile" 
                   className="about__img rounded-full object-cover w-full h-full"
                 />
-                <img 
+                {/* <img 
                   src="student2.jpeg" 
                   alt="profile" 
                   className="about__img rounded-full object-cover w-full h-full"
-                />
+                /> */}
                 {/* Decorations */}
                 <div className="about__shadow absolute inset-0 bg-black opacity-10 rounded-full"></div>
                 <div className="geometric-box absolute top-0 left-0 w-6 h-6 bg-green-500"></div>
